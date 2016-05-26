@@ -1,0 +1,44 @@
+
+body {
+    text-align: center;
+    line-height: 2;
+    font-family: 'Pacifico', cursive;
+    background: #484848;
+    height: 100px;
+}
+header {
+padding-top: 5px;
+}
+h1 {
+  font-size: 100px;
+  padding-top: 0px;
+  margin: -10px 0px -10px 0px;
+}
+h2 {
+  padding: 0,0,10px,0px;
+}
+main {
+    color: #fff;
+}
+img {
+display: inline-block;
+border-radius: 1000px;
+}
+footer {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    top: 0; bottom:20px; left: 0; right:0;
+    margin: 0 auto;
+    display: inline;
+}
+div {
+  padding-top: -20px;
+  padding-bottom: 30px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
