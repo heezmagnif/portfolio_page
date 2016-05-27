@@ -37,6 +37,12 @@ div {
   padding-top: -20px;
   padding-bottom: 30px;
 }
+p {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  text-align: left;
+  margin: 20px 40px 20px 40px;
+}
 .parent {
   display: flex;
   justify-content: center;
