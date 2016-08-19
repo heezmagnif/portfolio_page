@@ -2,18 +2,25 @@
 body {
     text-align: center;
     line-height: 2;
-    font-family: 'Pacifico', cursive;
-    background: #484848;
+    font-family: 'Montserrat', sans-serif;
+    background: #F2F2F0
     height: 100px;
+    letter-spacing: 2px;
 }
 header {
 padding-top: 5px;
+margin-top: -10px;
 }
 h1 {
   font-size: 100px;
   padding-top: 0px;
   margin: -10px 0px -10px 0px;
 }
+
+.webdev {
+  font-size: 60px;
+}
+
 h2 {
   padding: 0,0,10px,0px;
 }
@@ -24,6 +31,71 @@ img {
 display: inline-block;
 border-radius: 1000px;
 }
+
+.worklinks {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  top: 0; bottom:20px; left: 0; right:0;
+  margin: 0 auto;
+  display: inline;
+}
+
+.github {
+  max-width: 85px;
+  margin-top: -3px;
+}
+
+.about {
+  padding: 50px;
+}
+
+.aboutbody {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.pastpics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.past1 {
+  height: 300px;
+  width: 300px;
+}
+
+.past2 {
+  height: 300px;
+  max-width: 300px;
+}
+.past3 {
+  height: 300px;
+  width: 300px;
+}
+
+.skills {
+
+}
+
+.skillsheading {
+  font-size: 60px;
+}
+
+.skillset {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 33px;
+  color: rgb(232, 39, 20)
+}
+
+.projects {
+  font-size: 60px;
+}
+
 footer {
     width: 35px;
     padding: 5px;
